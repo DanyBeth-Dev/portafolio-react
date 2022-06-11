@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Footer from './components/Footer';
+import Carousel from './components/Carousel';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <Work />
       <Contact />
+      <Carousel />
       <Footer />
     </div>
   );

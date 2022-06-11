@@ -3,6 +3,7 @@ import i18n from '../i18n';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-scroll';
+import FotoPerfil from '../assets/perfil.png'
 
 const Home = () => {
   const { t, i18n } = useTranslation();
@@ -10,6 +11,7 @@ const Home = () => {
     <div name='home' className='w-full h-screen bg-[#0a192f]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+        <img src={FotoPerfil} alt="Foto de perfil" className='max-w-[180px]' />
         <p className='text-pink-600'>{t("greeting")}</p>
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
           Daniela Hernández
